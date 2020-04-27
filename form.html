@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>DETAILS</title>
+        <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase.js"></script>
+        <script src="script.js"></script>
+<style>
+body{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    font-size: 12px;
+    line-height: 50px;
+    color:black;
+    background: lightblue;
+}
+.container {
+    max-width: 1000px;
+    width: 300%;
+    margin: 0 auto;
+    position: relative;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+    <form id="con" method="post">
+      <br>
+      <h3>Your Details</h3>
+      <br>
+      
+        <h4>Name </h4>
+        <input placeholder="Enter Your Name" id="name" type="text" >
+      
+      
+        <h4>Mobile Number </h4>
+        <input placeholder="Enter YourNumber" id="number" type="number">
+      
+      
+        <h4>Email id </h4>
+        <input placeholder="xyz@gmail.com" id="email" type="email">
+    
+
+        <button name="submit" type="button" id="details-submit" onclick="det()">Submit</button>
+        <br>
+        <button><a href="success.html">Click</a></button>
+      
+    </form>
+  </div>
+  
+ 
+</body>
+
+</html>
